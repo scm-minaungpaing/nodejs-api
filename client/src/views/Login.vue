@@ -24,7 +24,7 @@ export default {
     const router = useRouter();
 
     const submit = async () => {
-      await fetch('http://localhost:8000/api/login', {
+      await fetch('http://localhost:5000/api/login', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         credentials: 'include',
